@@ -27,3 +27,7 @@ test('Reverse string 6' , () => {
 test('Reverse string 7' , () => {
     expect(reverseString('                     dgss gsgsdfh dsgh                ')).toBe('                hgsd hfdsgsg ssgd                     ');
 });
+
+test('Reverse string 2' , () => {
+    expect(reverseString(13423)).toBe('Enter a valid string');
+});

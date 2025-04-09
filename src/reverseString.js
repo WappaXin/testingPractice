@@ -7,6 +7,7 @@
 // }
 
 function reverseString(string){
+    if(typeof(string) !== "string" ) return 'Enter a valid string';
     if(string === '') return 'Nothing to be reversed';
     const reversedString = string.split('').reverse().join(''); 
     return reversedString;
